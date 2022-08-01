@@ -1,5 +1,14 @@
-import React from "react";
+import { Box } from "@mui/material";
 
 export const Sidebar = () => {
-  return <div>Sidebar</div>;
+  return (
+    <Box
+      bgcolor="skyblue"
+      flex={1}
+      padding={2}
+      sx={{ display: { xs: "none", sm: "block" } }}
+    >
+      Sidebar
+    </Box>
+  );
 };

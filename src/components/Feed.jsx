@@ -1,5 +1,9 @@
-import React from "react";
+import { Box } from "@mui/material";
 
 export const Feed = () => {
-  return <div>Feed</div>;
+  return (
+    <Box bgcolor="magenta" flex={4} padding={2}>
+      Feed
+    </Box>
+  );
 };
